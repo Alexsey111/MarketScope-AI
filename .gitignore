@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.cover
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / Editor
+.idea/
+.vscode/
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment / config secrets
+.env
+.env.*
+*.env.local
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+marketscope.db
+usage.db
+
+# Cache
+__cache__/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Celery / runtime
+celerybeat-schedule
+celerybeat.pid
+
+# Node / frontend (на всякий случай)
+node_modules/
+npm-debug.log*
+yarn.lock
+package-lock.json
+

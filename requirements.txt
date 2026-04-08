@@ -1,0 +1,36 @@
+#requirements.txt
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# Auth & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Redis & Celery
+redis==5.0.1
+celery==5.3.6
+
+# AI/ML
+openai==1.10.0
+scikit-learn==1.4.0
+numpy==1.26.3
+pandas==2.2.0
+
+# Bot
+aiogram==3.4.1
+
+# PDF
+reportlab==4.0.9
+
+# Utils
+python-dotenv==1.0.1
+jsonschema==4.21.1
